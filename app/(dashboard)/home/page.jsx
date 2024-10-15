@@ -1,16 +1,12 @@
 import React from "react";
+import Table from "@/components/Table";
+export default function Home() {
 
-function page() {
+
   return (
-    <div>
-      <h1>Dashboard</h1>
-      <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem commodi
-        quas eum? Ullam eaque vero quidem inventore tempore ipsum. Unde, eos
-        ipsum ullam totam iste doloribus beatae quos pariatur ratione!
-      </div>
+    <div className="flex justify-center items-center min-h-screen bg-gray-100">
+     hola HOME
     </div>
   );
 }
 
-export default page;
