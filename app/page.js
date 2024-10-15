@@ -1,3 +1,12 @@
+
+import React from 'react'
+import SideBar from './sideBar/SideBar'
+
+export default function page() {
+  return (
+    <div>page
+      <SideBar/>
+
 import Table from '../components/Table';
 
 export default function Home() {
@@ -10,6 +19,7 @@ export default function Home() {
   return (
     <div className="flex justify-center items-center min-h-screen bg-gray-100">
       <Table usuarios={usuarios} />
+
     </div>
-  );
+  )
 }
