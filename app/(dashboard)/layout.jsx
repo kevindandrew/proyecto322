@@ -13,7 +13,7 @@ function layout({ children }) {
       </div>
       <section className="py-4">
         <nav className=" flex justify-between items-center py-4 px-8">
-          <span className="text-2xl font-bold">HOME</span>
+          <span className="text-2xl font-bold"></span>
           <div className="flex gap-6">
             <button>
               <svg
