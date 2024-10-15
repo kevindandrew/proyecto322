@@ -11,7 +11,7 @@ const page = () => {
           <h3 className="text-center text-2xl font-bold">Team One</h3>
           <p className="text-center">Sign in your account</p>
           <div className="flex flex-col gap-2">
-            <label htmlFor="">Username</label>
+            <label htmlFor="" className="text-gray-500 font-semibold">Username</label>
             <input
               className="bg-slate-200 p-4 rounded-lg"
               type="text"
@@ -19,7 +19,7 @@ const page = () => {
             />
           </div>
           <div className="flex flex-col gap-2">
-            <label htmlFor="">Password</label>
+            <label htmlFor="" className="text-gray-500 font-semibold">Password</label>
             <input
               className="bg-slate-200 p-4 rounded-lg"
               type="password"
